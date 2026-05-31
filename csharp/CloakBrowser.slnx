@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/examples/">
+    <Project Path="examples/CloakBrowser.Examples/CloakBrowser.Examples.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/CloakBrowser/CloakBrowser.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CloakBrowser.Tests/CloakBrowser.Tests.csproj" />
+  </Folder>
+</Solution>

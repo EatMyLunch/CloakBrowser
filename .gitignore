@@ -73,3 +73,13 @@ captures
 .dolt/
 *.db
 .beads-credential-key
+
+# .NET / C#
+[Bb]in/
+[Oo]bj/
+csharp/.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
