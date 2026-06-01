@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>Playwright.CloakBrowser.Community</AssemblyName>
+    <RootNamespace>Playwright.CloakBrowser.Community</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>$(NoWarn);1591;0612</NoWarn>
+
+    <!-- NuGet Packaging Properties -->
+    <PackageId>Playwright.CloakBrowser.Community</PackageId>
+    <Version>0.3.31</Version>
+    <Authors>CloakBrowser Community</Authors>
+    <Description>Production-grade .NET 8+ C# wrapper for CloakBrowser. Provides source-level fingerprint stealth patches compiled into a custom Chromium binary, with automated downloading, proxy configuration, GeoIP timezone/locale detection, and human-like mouse/keyboard/scroll simulation for Playwright .NET.</Description>
+    <PackageTags>playwright;stealth;crawler;scraper;scraping;browser;cloakbrowser;automation;fingerprint;anti-detect</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/CloakHQ/cloakbrowser</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CloakHQ/cloakbrowser.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Playwright" Version="1.48.0" />
+    <PackageReference Include="MaxMind.Db" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>
