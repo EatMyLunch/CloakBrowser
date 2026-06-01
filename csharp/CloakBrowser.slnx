@@ -1,11 +1,11 @@
 <Solution>
   <Folder Name="/examples/">
-    <Project Path="examples/CloakBrowser.Examples/CloakBrowser.Examples.csproj" />
+    <Project Path="examples/Playwright.CloakBrowser.Community.Examples/Playwright.CloakBrowser.Community.Examples.csproj" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="src/CloakBrowser/CloakBrowser.csproj" />
+    <Project Path="src/Playwright.CloakBrowser.Community/Playwright.CloakBrowser.Community.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/CloakBrowser.Tests/CloakBrowser.Tests.csproj" />
+    <Project Path="tests/Playwright.CloakBrowser.Community.Tests/Playwright.CloakBrowser.Community.Tests.csproj" />
   </Folder>
 </Solution>
